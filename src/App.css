@@ -1,10 +1,32 @@
 .App {
-  text-align: center;
+  flex: 1;
+}
+
+.bg-blue{
+  background-color: #18306e;
+}
+
+.alignCenter {
+  text-align: center;;
+}
+
+.liststyled {
+  list-style: none;
+}
+
+.liststyled li {
+  margin-top: 20px;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
+}
+.Header-main{
+  background-color:white;color:white; border-bottom-color:black;border-bottom-width:1px
+}
+.Footer {
+  border-left-style: solid;border-right-style: solid;border-width: 0px 2px 0px 2px;border-color:#ECEDED;
 }
 
 @media (prefers-reduced-motion: no-preference) {
